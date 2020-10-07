@@ -21,7 +21,7 @@ let lovesCode = true;
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
-var greatestFear = undefined
+var greatestFear
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
@@ -37,7 +37,7 @@ var devMountainGoal = null
 
 //Code here
 function greeting(name) {
-    return "Hello, "
+    return "Hello, " + name
 };
 
 //////////////////PROBLEM 7////////////////////
@@ -47,7 +47,7 @@ function greeting(name) {
 
 //Code Here
 newGreeting = function(name) {
-    return "Hello, "
+    return "Hello, " + name
 };
 //////////////////PROBLEM 8////////////////////
 
@@ -86,7 +86,7 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 
 // Code here
 function nameCheck (NAMEPARAM) {
-    if (NAMEPARAM === 'Steve') {
+    if (NAMEPARAM === 'Steven') {
       return 'What is up Steven?'
     }
     else if (NAMEPARAM === 'Bryan') {
@@ -167,21 +167,20 @@ let bathroomScope = ["duck","rubberDuck"];
 let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
-//Create a variable called age with your age assigned to you
+//Create a variable called age with your age assigned to your age
 
 // Code Here
 var age = 33;
-var you = age;
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-let age = age+1;
+age = age+1;
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
-let age = 999
+age = 999
