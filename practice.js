@@ -3,7 +3,7 @@
 //Create a variable called myName that is a string data type
 
 //Code here
-var myName = 'Dude';
+var myName = "Dude";
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
@@ -170,12 +170,14 @@ let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 //Create a variable called age with your age assigned to you
 
 // Code Here
-
+var age = 33;
+var you = age;
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-
+let age = age+1;
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
+let age = 999
